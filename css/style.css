@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,900;1,500;1,600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+html,
+body {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/403571/pexels-photo-403571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 18px;
+}
+a {
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+}
+#heading {
+  margin-top: 2rem;
+  font-weight: 900;
+  font-size: 3rem;
+  color: #ba7760;
+}
+#static-part {
+  width: 1000px;
+  height: 750px;
+  border-radius: 33px;
+  background-color: #ba7760;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#static-content {
+  position: absolute;
+  margin-top: 17rem;
+  margin-left: 4rem;
+  color: #f3f3f3;
+  font-weight: bold;
+}
+#role-text {
+  font-size: 1rem;
+  color: #d5c9bc;
+}
+.content-part {
+  margin-right: 0;
+  margin-left: auto;
+  width: 700px;
+  height: 750px;
+  border-radius: 33px;
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#ava-img {
+  position: absolute;
+  border-radius: 50%;
+  transform: rotate(26.74deg);
+  margin-left: 2.5rem;
+  margin-top: 4rem;
+  width: 210px;
+  height: 208px;
+}
+
+#social-media-list {
+  list-style: none;
+}
+#social-media-list li {
+  font-size: 2rem;
+  padding: 10px;
+  display: inline;
+}
+#download-button {
+  width: 188px;
+  height: 58px;
+  color: #f3f3f3;
+  background: #ba7760;
+  border: 3px solid #e9eae5;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+#download-button:hover {
+  color: #ba7760;
+  border: 3px solid #f3f3f3;
+  background: #e9eae5;
+  font-weight: 700;
+  cursor: pointer;
+}
+#download-button:focus {
+  color: #ba7760;
+  border-radius: 30px;
+  border: 3px solid #f3f3f3;
+  background: #e9eae5;
+  font-weight: 700;
+}
+#links {
+  position: absolute;
+  left: -16px;
+}
+
+#about-section {
+  padding: 2rem;
+}
+.section-heading,
+.small-heading,
+.li-heading {
+  color: #ba7760;
+}
+.navigation-buttons {
+  left: auto;
+  right: 0;
+  position: absolute;
+  top: 5rem;
+}
+.button {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px 0px 0px 20px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 70px;
+  height: 100px;
+  background-color: #f1aa51;
+}
+#skill-button {
+  background-color: #90a899;
+}
+#project-button {
+  background-color: #ffffff;
+}
+#contact-button {
+  background-color: #ba7760;
+}
