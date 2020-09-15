@@ -120,7 +120,7 @@ a:hover {
 .navigation-buttons {
   left: auto;
   right: 0;
-  position: absolute;
+  position: fixed;
   top: 5rem;
 }
 .button {
@@ -129,7 +129,7 @@ a:hover {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
-  width: 70px;
+  width: 75px;
   height: 100px;
   background-color: #f1aa51;
 }
@@ -188,29 +188,40 @@ a:hover {
   position: absolute;
 }
 
-@media screen and (max-width: 1125px) {
-  #static-part {
-    width: 500px;
-  }
-  #content-part {
-    width: 500px;
-    height: 900px;
-  }
+@media screen and (max-width: 1024px) {
 }
 
-@media screen and (max-width: 554px) {
-  body {
-    background: url("https://images.pexels.com/photos/403571/pexels-photo-403571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-repeat: repeat;
-  }
+@media screen and (max-width: 768px) {
   #static-part {
-    width: 372px;
+    width: auto;
+    height: 583px;
+  }
+  #static-content {
+    margin-left: 5.5rem;
   }
   #content-part {
-    width: 372px;
-    height: 900px;
+    top: 590px;
+    width: auto;
+    height: 947px;
   }
-  .skill-text-box {
-    margin-top: 0;
+  #ava-img {
+    margin-left: 4rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  #static-part {
+    width: auto;
+    height: 583px;
+  }
+  #static-content {
+    margin-left: 5.5rem;
+  }
+  #content-part {
+    top: 590px;
+    width: auto;
+    height: 947px;
+  }
+  #ava-img {
+    margin-left: 4rem;
   }
 }
